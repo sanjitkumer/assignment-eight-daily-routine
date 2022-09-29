@@ -1,0 +1,49 @@
+.main{
+    width:300px;
+    height:510px;
+    border: 1px solid indianred;
+    border-radius: 8px;
+    position: relative;   
+}
+
+.main-info{
+    margin: 0px 14px;
+}
+
+.main-info p{
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.main img{
+    width:286px;
+    height:286px;
+    margin: 7px;
+}
+.main-name{
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+.btn-cart{
+    width: 100%;
+    background: skyblue;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-text{
+    margin-right: 5px;
+}
+
+.btn-cart:hover{
+    background-color: orange;
+};
