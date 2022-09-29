@@ -18,7 +18,56 @@
     line-height: 5px; 
 
 }
+ .weight{
+    padding: 5px;
+ }
+ .height{
+    padding: 5px;
+ }
+ .age{
+    padding: 5px;
+ }
+
 
 .part-4{
     margin: 5px;
+    padding-left: 5px;
 }
+
+.btn-cart-1{
+    background-color: aquamarine;
+    padding:5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.btn-cart-2{
+    background-color: aquamarine;
+    padding:5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.btn-cart-3{
+    background-color: aquamarine;
+    padding:5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.btn-cart-4{
+    background-color: aquamarine;
+    padding:5px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+.part-6{
+    text-align: center;
+}
+
+.btn-activity{    
+    background:  aquamarine;          
+    border-radius: 10px;
+}
+
+.btn-activity:hover{
+    background-color: orange;
+};

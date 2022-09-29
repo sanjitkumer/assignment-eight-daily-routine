@@ -25,12 +25,11 @@ const Home = () => {
     }
 
     return (
-        <div className=''>
-            <div className='fa-icon'>
-              <FontAwesomeIcon icon= {faBook}></FontAwesomeIcon>
-              <h2 className='btn-text'>Daily Routine</h2> 
+        <div className='home-containers'>
+            <div className='fa-icon'>             
+              <h2 className='btn-text'> <FontAwesomeIcon icon= {faBook}></FontAwesomeIcon>Daily Routine</h2>
+              <p>Select today,s Activities</p>               
             </div>
-              <p>Select today,s Activities</p> 
          <div className="home-container">
            <div className="main-container">
             {
