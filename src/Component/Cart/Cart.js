@@ -3,7 +3,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import './Cart.css';
 
-const Cart = ({cart}) => {
+const Cart = ({props}) => {
+   
+    // const {cart} = props;
+    // let total = 0;
+    // for (const product of cart){
+    //     total =total + product.time;
+    // }
     return (
         <div className='cart'>
             <div className='part-1'>
@@ -50,7 +56,7 @@ const Cart = ({cart}) => {
                     <h4>Exercise Time :</h4>
                 </div>
                 <div className=''>
-                    <h4>Break time : </h4>
+                    <h4>Break time :  </h4>
                 </div>
             </div>
 
