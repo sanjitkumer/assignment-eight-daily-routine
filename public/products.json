@@ -3,7 +3,7 @@
     "name": "Walking",
     "details":"Daily routine early to bed then 30 min working then back home. brash your teeth and breakfast etc.",
     "age":"20-25",
-    "time": "20 min",    
+    "time": 20,    
     "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"   
     },
 
@@ -12,7 +12,7 @@
     "name": "Pray",
     "details":"Daily routine early to bed then 30 min working then back home. brash your teeth and breakfast etc.",
     "age":"21-25",
-    "time": "25 min",    
+    "time": 25,    
     "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"   
     },
 
@@ -21,7 +21,7 @@
     "name": "reading",
     "details":"Daily routine early to bed then 30 min working then back home. brash your teeth and breakfast etc.",
     "age":"22-25",
-    "time": "30min",    
+    "time": 30,    
     "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"   
     },
 
@@ -30,7 +30,7 @@
     "name": "work",
     "details":"Daily routine early to bed then 30 min working then back home. brash your teeth and breakfast etc.",
     "age":"25-30",
-    "time": "35 min",    
+    "time":35 ,    
     "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"   
     },
 
@@ -39,7 +39,7 @@
     "name": "Cricket",
     "details":"Daily routine early to bed then 30 min working then back home. brash your teeth and breakfast etc.",
     "age":"20-25",
-    "time": "40 min",    
+    "time": 40,    
     "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"   
     },
     {
@@ -47,7 +47,7 @@
     "name": "study",
     "details":"Daily routine early to bed then 30 min working then back home. brash your teeth and breakfast etc.",
     "age":"30-35",
-    "time": "45 min",    
+    "time": 45,    
     "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg"   
     }                   
 ]

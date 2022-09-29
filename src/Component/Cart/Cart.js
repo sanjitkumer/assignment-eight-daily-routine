@@ -1,15 +1,24 @@
 import { faLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
+import React, { useState } from 'react';
 import './Cart.css';
 
-const Cart = ({props}) => {
+const Cart = (props) => {
+
+    const [count, setCount] = useState();
+
+    const addedCount =() =>{
+        const newCount = count;
+        setCount(newCount);
+    }
    
-    // const {cart} = props;
-    // let total = 0;
-    // for (const product of cart){
-    //     total =total + product.time;
-    // }
+    const { cart } = props;
+    console.log(cart);
+   
+    let total = 0;
+    for (const product of cart){
+        total =total + product.time;
+    }
     return (
         <div className='cart'>
             <div className='part-1'>
@@ -43,20 +52,20 @@ const Cart = ({props}) => {
                 <h2> Add A Break</h2>                
             </div>
             <div className='part-4'>
-                <button>10 m</button>
-                <button>15 m</button>
-                <button>30 m</button>
-                <button>20 m</button>          
+                <button onClick={addedCount}>10 m</button>
+                <button onClick={addedCount}>15 m</button>
+                <button onClick={addedCount}>30 m</button>
+                <button onClick={addedCount}>20 m</button>          
             </div>
 
             <div className='part-5'>
-                <h2>Exercise Details</h2>
+                <h2>Exercise Details :</h2>
 
                 <div className='exercise-time'>
-                    <h4>Exercise Time :</h4>
+                    <h4>Exercise Time :{total} Min</h4>
                 </div>
                 <div className=''>
-                    <h4>Break time :  </h4>
+                    <h4>Break time :  {count} </h4>
                 </div>
             </div>
 
