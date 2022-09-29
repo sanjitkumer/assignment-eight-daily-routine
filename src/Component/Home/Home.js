@@ -1,6 +1,7 @@
 import { faBook } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
+import Cart from '../Cart/Cart';
 import Main from '../Main/Main';
 import './Home.css'
 
@@ -40,11 +41,14 @@ const Home = () => {
                     ></Main>)
             }
            </div>
-            <div className="cart-container">
-                <h3>Profile</h3>                
-                <p> Selected Items : {cart.length}</p>
-            </div>                           
-         </div>                                         
+           <div className="cart-container">
+                <Cart cart={cart}></Cart>
+                
+          </div>
+                                   
+         </div> 
+
+                                                    
         </div>
     );
 };
