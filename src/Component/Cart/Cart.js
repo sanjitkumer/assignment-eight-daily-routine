@@ -29,7 +29,7 @@ const Cart = (props) => {
     
         const alert = () => {
             console.log('click')
-            toast("Wow so easy!")
+            toast.success("activity Completed")
         };
 
     return (
@@ -83,7 +83,7 @@ const Cart = (props) => {
              <button className='btn-activity' onClick={alert}>
                 <h3>Activity Complete</h3>
              </button>
-             <ToastContainer />
+             <ToastContainer position="bottom-right"/>
            </div>            
         </div>
     );
