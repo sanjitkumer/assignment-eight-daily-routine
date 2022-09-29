@@ -3,8 +3,9 @@ import './Main.css'
 
 
 const Main = (props) => {
-    const{name, img, details, age, time} = props.product;
-    const {handleAddToCart} = props;
+    const {product,handleAddToCart} = props;
+    const{name, img, details, age, time} = product;
+    
     return (
         <div className='main'>
             <img src= {img} alt="" />
@@ -14,7 +15,7 @@ const Main = (props) => {
                 <p><small>Age : {age}</small></p>
                 <p><small>Time : {time}</small></p>
             </div>
-            <button onClick={handleAddToCart} className='btn-cart'>
+            <button onClick={() =>handleAddToCart(product)} className='btn-cart'>
                 <p>Add to list</p>
             </button>
         </div>

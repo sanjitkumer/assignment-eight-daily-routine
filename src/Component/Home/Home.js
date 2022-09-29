@@ -5,6 +5,9 @@ import './Home.css'
 
 const Home = () => {
     const [products, setProducts]= useState([]);
+    const[cart, setCart] = useState([]);
+
+
     useEffect(() =>{
         fetch('products.json')
         .then(res => res.json())
@@ -12,15 +15,17 @@ const Home = () => {
 
     },[])
 
-    const handleAddToCart = () =>{
-        console.log('clicked');
+    const handleAddToCart = (product) =>{
+        console.log(product);
+        const newCart =[...cart, product];
+        setCart(newCart);
     }
 
     return (
         <div className=''>
               <h2>Daily Routine</h2> 
               <p>Select today,s Activities</p> 
-        <div className="home-container">
+         <div className="home-container">
            <div className="main-container">
             {
                 products.map(product => <Main 
@@ -29,20 +34,12 @@ const Home = () => {
                     handleAddToCart = {handleAddToCart}
                     ></Main>)
             }
-            
-
-            </div>
+           </div>
             <div className="cart-container">
-                <h3>Profile</h3>
-                <p></p>
-            </div>
-        
-        
-        
-        
-        </div>                           
-             
-            
+                <h3>Profile</h3>                
+                <p> Selected Items : {cart.length}</p>
+            </div>                           
+         </div>                                         
         </div>
     );
 };
