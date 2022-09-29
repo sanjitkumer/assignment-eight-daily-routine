@@ -1,3 +1,5 @@
+import { faBook } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Main from '../Main/Main';
 import './Home.css'
@@ -23,7 +25,10 @@ const Home = () => {
 
     return (
         <div className=''>
-              <h2>Daily Routine</h2> 
+            <div className='fa-icon'>
+              <FontAwesomeIcon icon= {faBook}></FontAwesomeIcon>
+              <h2 className='btn-text'>Daily Routine</h2> 
+            </div>
               <p>Select today,s Activities</p> 
          <div className="home-container">
            <div className="main-container">
